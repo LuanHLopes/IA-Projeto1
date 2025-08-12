@@ -1,0 +1,27 @@
+% Cidade inicial e final
+cidade_inicial(catanduva).
+cidade_final(orlando).
+
+% Trajeto entre as cidades
+ligacao(atlanta, miami, 1065).
+ligacao(miami, atlanta, 1065).
+ligacao(miami, nashville, 1310).
+ligacao(nashville, miami, 1310).
+ligacao(nashville, orlando, 995).
+ligacao(orlando, nashville, 995).
+ligacao(orlando, charlotte, 800).
+ligacao(charlotte, orlando, 800).
+ligacao(charlotte, cincinnati, 640).
+ligacao(cincinnati, charlotte, 640).
+ligacao(cincinnati, washington_DC, 700).
+ligacao(washington_DC, cincinnati, 700).
+ligacao(washington_DC, philadelphia, 225).
+ligacao(philadelphia, washington_DC, 225).
+ligacao(philadelphia, east_rutherford, 150).
+ligacao(east_rutherford, philadelphia, 150).
+ligacao(east_rutherford, seattle, 3500).
+ligacao(seattle, east_rutherford, 3500).
+ligacao(seattle, pasadena, 1100).
+ligacao(pasadena, seattle, 1100).
+ligacao(pasadena, atlanta, 2800).
+ligacao(atlanta, pasadena, 2800).

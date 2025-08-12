@@ -1,0 +1,29 @@
+% Cidade inicial e final
+cidade_inicial(atlanta).
+cidade_final(seattle).
+
+% Trajeto entre as cidades
+ligacao(atlanta, charlotte, 365).
+ligacao(charlotte, atlanta, 365).
+ligacao(atlanta, miami, 1065).
+ligacao(miami, atlanta, 1065).
+ligacao(miami, orlando, 380).
+ligacao(orlando, miami, 380).
+ligacao(orlando, nashville, 995).
+ligacao(nashville, orlando, 995).
+ligacao(nashville, cincinnati, 400).
+ligacao(cincinnati, nashville, 400).
+ligacao(cincinnati, charlotte, 640).
+ligacao(charlotte, cincinnati, 640).
+ligacao(charlotte, washington_DC, 640).
+ligacao(washington_DC, charlotte, 640).
+ligacao(washington_DC, philadelphia, 225).
+ligacao(philadelphia, washington_DC, 225).
+ligacao(philadelphia, east_rutherford, 150).
+ligacao(east_rutherford, philadelphia, 150).
+ligacao(east_rutherford, pasadena, 3000).
+ligacao(pasadena, east_rutherford, 3000).
+ligacao(pasadena, seattle, 1100).
+ligacao(seattle, pasadena, 1100).
+ligacao(seattle, atlanta, 2100).
+ligacao(atlanta, seattle, 2100).
